@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Polka-dash Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Contracts to be integrated with Polka-dash UI
 
-Try running some of the following tasks:
+## Installation
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+- Download (Yarn)[https://classic.yarnpkg.com/lang/en/docs/install/]
+- Then run `yarn`
+
+## Testing
+
+I wasnt able to write tests ran out of time
+
+
+## Deploying 
+
+Run ``yarn deploy:localhost`` or ``yarn deploy:westend``
