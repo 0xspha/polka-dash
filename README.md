@@ -6,3 +6,8 @@ Dash to the end collecting as many items as possible
 ![Menu](./screenshots/1.png)
 
 ![Play](./screenshots/2.png)
+
+
+## Keys
+
+Any private keys are generated locally :XD 
