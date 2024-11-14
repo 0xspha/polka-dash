@@ -114,7 +114,7 @@ contract Game is IGame, Ownable {
         );
         bytes32 message = MessageHashUtils.toEthSignedMessageHash(messageHash);
         address recoveredAddress = ECDSA.recover(message, signature);
-        if (recoveredAddress != owner()) {
+        if (recoveredAddress != owner()) { //@dev need to ensure that the scores are uploaded from within the game
             revert InvalidClientSignature();
         }
         scores = scores_;
