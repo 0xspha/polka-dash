@@ -4,14 +4,13 @@ Contracts to be integrated with Polka-dash UI
 
 ## Installation
 
-- Download ![Menu](https://classic.yarnpkg.com/lang/en/docs/install/)
+- Download <a href="https://classic.yarnpkg.com/lang/en/docs/install/">Yarn</a>
 - Then run `yarn`
 
 ## Testing
 
 I wasnt able to write tests ran out of time
 
+## Deploying
 
-## Deploying 
-
-Run ``yarn deploy:localhost`` or ``yarn deploy:westend``
+Run `yarn deploy:localhost` or `yarn deploy:westend`
