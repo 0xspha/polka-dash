@@ -4,7 +4,7 @@ Contracts to be integrated with Polka-dash UI
 
 ## Installation
 
-- Download (Yarn)[https://classic.yarnpkg.com/lang/en/docs/install/]
+- Download ![Menu](https://classic.yarnpkg.com/lang/en/docs/install/)
 - Then run `yarn`
 
 ## Testing
