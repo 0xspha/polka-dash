@@ -23,5 +23,9 @@
     "@openzeppelin/contracts": "^5.1.0",
     "@sablier/v2-core": "^1.2.0",
     "ethers": "^6.13.4"
+  },
+  "scripts": {
+    "deploy:local":"npx hardhat ignition deploy ./ignition/modules/Game.ts --network localhost",
+    "deploy:westend":"npx hardhat ignition deploy ./ignition/modules/Game.ts --network westend"
   }
 }
